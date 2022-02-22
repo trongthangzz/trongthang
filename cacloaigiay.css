@@ -1,0 +1,136 @@
+.container>header{
+    background-image: url(ảnh\ c.jfif);
+    text-align: center;
+    background-size: 100% 100% ;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: blue;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+
+}
+.menu>ul>li:hover>ul{
+    color: yellow;
+    display: block;
+
+
+
+
+
+
+    
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>nav>a{
+    color: white;
+    text-emphasis: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+}  
+
+
+
+
+.column{
+    width: 30%;
+    float: left;
+}
+.sanpham{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.sanpham>.ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color:blue;
+}
+img{
+    max-width: 250px;
+}
+.gia{
+    color: red;
+    font-weight:bold;
+    font-size: larger;
+}
+del{
+    color: gray;
+    
+}
+.column:hover{
+    background-color: yellow;
+}
+.sanpham:hover{
+    color: blue;
+}
